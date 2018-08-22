@@ -3,8 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
-
+define p = Character("Parker")
+define a = Character("Alex")
+define l = Character("Lazule")
 
 # The game starts here.
 
@@ -20,13 +21,23 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show parker happy
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    p "What are ya fuckin' gay?"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    a "Dude we're all gay."
+
+    l "Yea. Pretty much"
+
+    p "That's kinda gay."
+
+    p "so uh, what do you faggots wanna do today?"
+
+    a "I don't know? Do what we normally do and just exist?"
+
+    l "Eh, anyway, theres the demo! See y'all fuckers later."
 
     # This ends the game.
 
